@@ -1,0 +1,22 @@
+{
+  "name": "web_nu_dol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuongdol/nodejs_basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuongdol/nodejs_basic/issues"
+  },
+  "homepage": "https://github.com/nuongdol/nodejs_basic#readme",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}

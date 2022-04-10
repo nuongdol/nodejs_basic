@@ -13,11 +13,18 @@ server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });
 */
-const express = require('express')
-const app = express()
+import express from "express";
+import configViewEngine from "./configs/Viewengine";
+
+const app = express();
 const port = 3000
 
+configViewEngine(app);
+
 app.get('/', (req, res) => {
+    res.render('index.ejs')
+})
+app.get('/about', (req, res) => {
     res.send('học đi nương ạ .Dốt lắm rồi hehe!')
 })
 
